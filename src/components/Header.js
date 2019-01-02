@@ -1,12 +1,17 @@
-import React,{Component} from 'react';
+import React from 'react';
 
-class Header extends Component{
+function Header(){
 
-    render() {
       return (
-        <div>
-          <h1>Header</h1>
-        </div>
+        <header>
+            < img src = "http://www.focaalblog.com/wp-content/uploads/2015/11/Bozzini3-2.jpg"
+            height="100px"
+            width="100px"
+            alt = "Problem?" / >
+            <span className="header-text">Meme Generator</span>
+        </header>
       )
-    }
+
 }
+
+export default Header
